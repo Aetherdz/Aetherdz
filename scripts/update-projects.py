@@ -13,7 +13,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-README = ROOT / "README.md"
+README = ROOT / "Readme.md"
 START = "<!-- FEATURED-PROJECTS:START -->"
 END = "<!-- FEATURED-PROJECTS:END -->"
 EXCLUDED = {"aetherdz"}
@@ -35,32 +35,27 @@ def clean_markdown(value: str, limit: int = 220) -> str:
 
 
 TECH_ICONS = {
-    "Python": ("python", "3776AB"),
-    "Rust": ("rust", "CE422B"),
-    "TypeScript": ("typescript", "3178C6"),
-    "JavaScript": ("javascript", "F7DF1E"),
-    "Node.js": ("nodedotjs", "339933"),
-    "C++": ("cplusplus", "00599C"),
-    "C": ("c", "A8B9CC"),
-    "Go": ("go", "00ADD8"),
-    "Dart": ("dart", "0175C2"),
-    "Kotlin": ("kotlin", "7F52FF"),
-    "Swift": ("swift", "F05138"),
-    "Shell": ("gnubash", "4EAA25"),
+    "Python": "python",
+    "Rust": "rust",
+    "TypeScript": "typescript",
+    "JavaScript": "javascript",
+    "Node.js": "nodedotjs",
+    "C++": "cplusplus",
+    "C": "c",
+    "Go": "go",
+    "Dart": "dart",
+    "Kotlin": "kotlin",
+    "Swift": "swift",
+    "Shell": "gnubash",
 }
 
 
-def tech_badges(language: str | None) -> str:
-    """Create concise, accessible language logos based on GitHub metadata."""
-    if not language:
+def language_icon(language: str | None) -> str:
+    if not language or language not in TECH_ICONS:
         return ""
-    icon = TECH_ICONS.get(language)
-    if not icon:
-        return f"<img alt=\"{language} language\" src=\"https://img.shields.io/badge/{language.replace(' ', '%20')}-language-64748b?style=flat-square\" />"
-    slug, color = icon
     return (
-        f"<img alt=\"{language}\" src=\"https://img.shields.io/badge/{language.replace('+', '%2B')}-"
-        f"{color}?style=flat-square&logo={slug}&logoColor=white\" />"
+        f"<img alt=\"{language}\" src=\"https://cdn.simpleicons.org/"
+        f"{TECH_ICONS[language]}\" width=\"24\" height=\"24\" />"
     )
 
 
@@ -110,9 +105,9 @@ def main() -> None:
         )
         selected.extend(remaining[: 3 - len(selected)])
 
-    lines = ["<!-- Generated automatically by scripts/update-projects.py -->", "<table>"]
+    cards = []
     if not selected:
-        lines.extend(["<tr><td>No public projects available yet.</td></tr>", "</table>"])
+        cards.append("<td align=\"center\">No public projects yet</td>")
     for repo in selected:
         description = clean_markdown(repo["description"])
         name = clean_markdown(repo["name"], limit=80)
@@ -120,17 +115,19 @@ def main() -> None:
         if not url.startswith("https://github.com/"):
             continue
         language = repo.get("language")
-        meta = tech_badges(language)
-        recent_label = " · **Updated in the last 24 hours**" if repo in recent else ""
-        lines.append(
-            "<tr><td>"
-            f"<a href=\"{url}\"><strong>{name}</strong></a><br/>"
-            f"<img alt=\"{name} repository stars\" src=\"https://img.shields.io/github/stars/{login}/{name}?style=flat-square&color=367c74\" /> "
-            f"{meta}{recent_label}"
-            "</td></tr>"
+        icon = language_icon(language)
+        cards.append(
+            "<td align=\"center\" width=\"33%\">"
+            f"<a href=\"{url}\"><strong>{name}</strong></a>"
+            f"<br/><sub>{description}</sub>"
+            f"<br/>{icon}"
+            f"<br/><img alt=\"Repository stars\" src=\"https://img.shields.io/github/stars/{login}/{name}?style=flat-square&label=stars&color=64748b\" />"
+            "</td>"
         )
-    lines.append("</table>")
-    block = "\n".join(lines)
+    block = "\n".join([
+        "<!-- Generated automatically by scripts/update-projects.py -->",
+        "<div align=\"center\"><table><tr>" + "".join(cards) + "</tr></table></div>",
+    ])
     readme = README.read_text(encoding="utf-8")
     if START not in readme or END not in readme:
         raise SystemExit("README is missing featured-project markers")
