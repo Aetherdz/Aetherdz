@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Arthur — web development and security</title>
+  <desc id="desc">Abstract, calm dark teal and blue ribbons on a soft off-white background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f8f6"/>
+      <stop offset="1" stop-color="#eaf0ef"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#367c74"/>
+      <stop offset="1" stop-color="#4b91b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="28" fill="url(#bg)"/>
+  <path d="M700 0h500v260H850c105-38 126-112 0-154C768 79 728 42 700 0Z" fill="url(#ribbon)" opacity=".12"/>
+  <path d="M780 260c124-57 102-119-18-154-69-20-110-53-127-106h98c18 33 54 55 111 72 157 46 169 132 50 188Z" fill="url(#ribbon)" opacity=".22"/>
+  <circle cx="1030" cy="66" r="7" fill="#4b91b8" opacity=".62"/>
+  <circle cx="1090" cy="101" r="4" fill="#367c74" opacity=".55"/>
+  <circle cx="962" cy="198" r="5" fill="#367c74" opacity=".48"/>
+  <path d="M850 35h235M900 48h160M870 218h205" stroke="#367c74" stroke-width="1" opacity=".18"/>
+</svg>

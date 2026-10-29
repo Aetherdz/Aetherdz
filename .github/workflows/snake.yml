@@ -1,0 +1,36 @@
+name: Update contribution snake
+
+on:
+  schedule:
+    - cron: "23 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Aetherdz
+          outputs: |
+            dist/github-snake.svg?color_snake=%23367c74&color_dots=%23ebedf0,%2399d9cf,%235eb9ad,%233e9b91,%232d7c74
+            dist/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Publish generated SVG assets
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ github.token }}
+          publish_dir: ./dist
+          publish_branch: output
+          commit_message: "chore: update contribution snake [skip ci]"
