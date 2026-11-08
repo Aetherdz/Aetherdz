@@ -44,25 +44,38 @@
 
 ---
 
-### ⚡ Core Engineering Philosophy
+### 👨‍💻 Hi, I'm Arthur (`@AetherDz`)
 
-> *"Local-first by default. Clear trust boundaries. Verified and reproducible evidence. Owned tools."*
+<p align="left">
+I am an independent <b>Systems &amp; Mobile Developer</b> and <b>Application Security Researcher</b> based in Algeria 🇩🇿. I operate at the intersection of high-performance software engineering and offensive security: building fast, accessible web and mobile interfaces, single-binary tools that prioritize <b>local-first data ownership</b>, and hunting high-severity business logic vulnerabilities across web applications and APIs.
+</p>
 
-```text
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│  01. SYSTEMS & LOCAL-FIRST TOOLING                                                     │
-│      Building single-binary Rust agents, sub-millisecond cold starts, and owner-only    │
-│      local MCP bridges that eliminate reliance on third-party cloud intermediaries.     │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│  02. OFFENSIVE & DEFENSIVE SECURITY                                                    │
-│      Executing PTES and OWASP methodology assessments across SaaS, web apps, and APIs. │
-│      Designing 12-skill bug bounty pipelines with strict proof gates over payload dumps.│
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│  03. RESILIENT FRONTEND & NATIVE MOBILE                                                │
-│      Authoring high-performance Arabic-first Android apps with local media pipelines,   │
-│      and zero-backend client-side static generators guaranteeing user data ownership.  │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-```
+<p align="left">
+My engineering baseline is simple: <i>Front-end first. Back-end capable. Security-aware by default.</i> Security is not an afterthought or a badge on the side—it dictates how I design trust boundaries, enforce local-first privacy, and build software that withstands real-world threats.
+</p>
+
+<table width="100%">
+  <tr>
+    <td width="50%">
+      <b>🔭 What I'm Building</b><br/>
+      Local-first bridges and agent companions (<a href="https://github.com/Aetherdz/opencode-mobile"><b>OpenCode Mobile</b></a>, <a href="https://github.com/Aetherdz/telecode"><b>TeleCode</b></a>) and single-binary terminal tools in <b>Rust</b>.
+    </td>
+    <td width="50%">
+      <b>🎯 What I'm Hunting</b><br/>
+      High-impact <b>Business Logic Flaws</b>, <b>IDOR</b>, broken access controls (BAC), and API authorization boundaries on Bug Bounty targets.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <b>📱 Mobile &amp; Client Work</b><br/>
+      Fast, accessible web interfaces and Arabic-first Android apps (<a href="https://github.com/Aetherdz/VidNest"><b>VidNest</b></a>) built with <b>Kotlin</b> and zero third-party tracking.
+    </td>
+    <td width="50%">
+      <b>🧠 Multi-Agent Security OS</b><br/>
+      Architecting multi-agent bug bounty pipelines and verifiable proof gates (70+ specialized security &amp; triage skills).
+    </td>
+  </tr>
+</table>
 
 ---
 
