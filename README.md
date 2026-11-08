@@ -218,41 +218,55 @@ Dynamic telemetry from my primary open-source projects, local-first bridges, and
 
 ---
 
-### 📡 Direct Dispatch & Communication
+### 📬 Get In Touch & Let's Connect
 
-Have a security research inquiry, an open-source collaboration, or a systems engineering opportunity? Reach out directly through verified channels:
+Whether you have a software project in mind, an authorized security assessment or bug bounty inquiry, or want to collaborate on local-first tools—my channels are open:
 
 <div align="center">
-  <table>
+
+  <p>
+    <a href="https://aether-dz.vercel.app" target="_blank">
+      <img src="https://img.shields.io/badge/Website-aether--dz.vercel.app-00F2FE?style=for-the-badge&logo=vercel&logoColor=0B0F19&labelColor=0D1117" alt="Website" />
+    </a>
+    <a href="mailto:arthur_exe@proton.me" target="_blank">
+      <img src="https://img.shields.io/badge/ProtonMail-arthur__exe%40proton.me-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=0D1117" alt="ProtonMail" />
+    </a>
+    <a href="https://t.me/PP9PS" target="_blank">
+      <img src="https://img.shields.io/badge/Telegram-%40PP9PS-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0D1117" alt="Telegram" />
+    </a>
+  </p>
+
+  <p>
+    <a href="https://linkedin.com/in/aether-dz" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-aether--dz-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" />
+    </a>
+    <a href="https://x.com/Aether_Dz" target="_blank">
+      <img src="https://img.shields.io/badge/X-@Aether__Dz-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117" alt="X" />
+    </a>
+    <a href="https://github.com/Aetherdz" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-Aetherdz-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" />
+    </a>
+  </p>
+
+  <br/>
+
+  <table width="92%">
     <tr>
-      <td align="center"><b>Channel</b></td>
-      <td align="center"><b>Endpoint</b></td>
-      <td align="center"><b>Action</b></td>
-    </tr>
-    <tr>
-      <td align="center">🌐 <b>Live Portfolio</b></td>
-      <td><code>https://aether-dz.vercel.app</code></td>
-      <td align="center"><a href="https://aether-dz.vercel.app">Explore Showcase →</a></td>
-    </tr>
-    <tr>
-      <td align="center">🔒 <b>Secure Email</b></td>
-      <td><code>arthur_exe@proton.me</code></td>
-      <td align="center"><a href="mailto:arthur_exe@proton.me">Send Encrypted Dispatch →</a></td>
-    </tr>
-    <tr>
-      <td align="center">💬 <b>Telegram Direct</b></td>
-      <td><code>@PP9PS</code></td>
-      <td align="center"><a href="https://t.me/PP9PS">Initiate Direct Chat →</a></td>
-    </tr>
-    <tr>
-      <td align="center">💼 <b>LinkedIn</b></td>
-      <td><code>linkedin.com/in/aether-dz</code></td>
-      <td align="center"><a href="https://linkedin.com/in/aether-dz">Connect Profile →</a></td>
-    </tr>
-    <tr>
-      <td align="center">🐦 <b>X (Twitter)</b></td>
-      <td><code>@Aether_Dz</code></td>
-      <td align="center"><a href="https://x.com/Aether_Dz">Follow Updates →</a></td>
+      <td width="33%" align="center">
+        <b>🚀 Engineering &amp; Collabs</b><br/>
+        <sub>Building fast web, native Android apps, and single-binary tools.</sub><br/><br/>
+        <a href="https://t.me/PP9PS"><b>Initiate Telegram Chat →</b></a>
+      </td>
+      <td width="33%" align="center">
+        <b>🔒 Security &amp; Vulnerabilities</b><br/>
+        <sub>Scope-limited penetration testing, code review, and triage.</sub><br/><br/>
+        <a href="mailto:arthur_exe@proton.me"><b>Send Encrypted Dispatch →</b></a>
+      </td>
+      <td width="33%" align="center">
+        <b>🌐 Interactive Showcase</b><br/>
+        <sub>Explore comprehensive case studies and live benchmarks.</sub><br/><br/>
+        <a href="https://aether-dz.vercel.app" target="_blank"><b>Open Live Portfolio →</b></a>
+      </td>
     </tr>
   </table>
 
