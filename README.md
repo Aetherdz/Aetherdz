@@ -7,15 +7,16 @@
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://aether-dz.vercel.app">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1200&color=00F2FE&center=true&vCenter=true&multiline=false&width=700&height=46&lines=Front-end+first.+Back-end+capable.+Security-aware+by+default.;Local-first+systems+%C2%B7+Terminal+tooling+%C2%B7+Offensive+security;Rust+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+Android+Kotlin+%C2%B7+MCP;Deterministic+proof+gates+%C2%B7+Zero+cloud+relays+%C2%B7+Owned+tools" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1200&color=00F2FE&center=true&vCenter=true&multiline=false&width=760&height=46&lines=Bug+Bounty+Hunter+%C2%B7+Application+Security+Researcher;Business+Logic+Audits+%C2%B7+IDOR+%C2%B7+Authz+Bypass+%C2%B7+Proof-First;Front-end+first.+Back-end+capable.+Security-aware+by+default.;Architect+of+Bug+Bounty+Multi-Agent+OS+(70%2B+Skills);Deterministic+proof+gates+%C2%B7+Zero+false+positives+%C2%B7+Owned+tools" alt="Typing SVG" />
   </a>
 
   <br/>
 
   <!-- Status & Telemetry Pill Row -->
   <p>
-    <img src="https://img.shields.io/badge/LOCATION-ALGERIA%20%F0%9F%87%A9%F0%9F%87%BF-0D1117?style=flat-square&logo=googlemaps&logoColor=00F2FE" alt="Location" />
+    <img src="https://img.shields.io/badge/RESEARCH-BUG%20BOUNTY%20HUNTER-0D1117?style=flat-square&logo=hackerone&logoColor=00F2FE" alt="Bug Bounty Hunter" />
     <img src="https://img.shields.io/badge/SECURITY-OWASP%20%2F%20PTES-0D1117?style=flat-square&logo=hackthebox&logoColor=00F2FE" alt="Security Standard" />
+    <img src="https://img.shields.io/badge/LOCATION-ALGERIA%20%F0%9F%87%A9%F0%9F%87%BF-0D1117?style=flat-square&logo=googlemaps&logoColor=00F2FE" alt="Location" />
     <img src="https://img.shields.io/badge/ARCH-LOCAL--FIRST%20%2F%20MCP-0D1117?style=flat-square&logo=rust&logoColor=00F2FE" alt="Architecture" />
     <img src="https://komarev.com/ghpvc/?username=Aetherdz&label=TELEMETRY%20VIEWS&color=00F2FE&style=flat-square&labelColor=0D1117" alt="Profile Views" />
   </p>
@@ -62,6 +63,46 @@
 │      and zero-backend client-side static generators guaranteeing user data ownership.  │
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
+
+---
+
+### 🛡️ Bug Bounty & Offensive Security Specialization
+
+Specializing in **Application Logic Auditing, Authz Boundaries & Multi-Agent Security Automation**. Moving far beyond automated scanner noise into deep target modeling, manual reasoning, and deterministic proof gates:
+
+```text
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  HUNTING METHODOLOGY: RECON → MODEL → HYPOTHESIZE → TEST → VERBATIM PROOF GATE         │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  • Target Modeling: Multi-account actor matrices, tenant boundaries, state machines.   │
+│  • High-Value Logic Flaws: IDOR, Broken Object Level Auth (BOLA), Race Conditions, OTP.│
+│  • Bug Bounty Multi-Agent OS: Custom architecture of 70+ specialized security skills. │
+│  • Proof-Gate Enforcement: Verbatim HTTP evidence & reproducible PoCs; zero noise.    │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+<div align="center">
+  <table width="100%">
+    <tr>
+      <td width="25%" align="center">
+        <b>🎯 Logic &amp; Access Control</b><br/>
+        <sub>IDOR · BOLA · BAC<br/>Tenant Boundary Isolation<br/>State Machine &amp; Race Flaws</sub>
+      </td>
+      <td width="25%" align="center">
+        <b>🌐 API &amp; GraphQL Auditing</b><br/>
+        <sub>Introspection Abuse<br/>JWT Attacks · OAuth Flow<br/>BFLA &amp; Sibling Endpoints</sub>
+      </td>
+      <td width="25%" align="center">
+        <b>🤖 AI / LLM Vulnerabilities</b><br/>
+        <sub>Prompt Injection &amp; Evasion<br/>Agent Tool &amp; MCP Abuse<br/>RAG Context Poisoning</sub>
+      </td>
+      <td width="25%" align="center">
+        <b>📋 Standards &amp; Triage</b><br/>
+        <sub>CVSS 3.1 Impact Scoring<br/>PTES &amp; OWASP Standards<br/>Sanitized Case Reports</sub>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
@@ -131,12 +172,13 @@ Dynamic telemetry from my primary open-source projects, local-first bridges, and
 
 #### Standards, Protocols & Security Capabilities
 <p align="left">
-  <img src="https://img.shields.io/badge/Protocol-MCP%20(Model%20Context%20Protocol)-00F2FE?style=flat-square&logo=anthropic&logoColor=0B0F19&labelColor=0D1117" alt="MCP" />
+  <img src="https://img.shields.io/badge/Platforms-HackerOne%20%2F%20Bugcrowd-00F2FE?style=flat-square&logo=hackerone&logoColor=0B0F19&labelColor=0D1117" alt="Bug Bounty Platforms" />
+  <img src="https://img.shields.io/badge/Auditing-Burp%20Suite%20%2F%20Wireshark-00F2FE?style=flat-square&logo=hackthebox&logoColor=00F2FE&labelColor=0D1117" alt="Burp Suite" />
   <img src="https://img.shields.io/badge/Security-OWASP%20Top%2010%20%26%20API-00F2FE?style=flat-square&logo=owasp&logoColor=00F2FE&labelColor=0D1117" alt="OWASP" />
-  <img src="https://img.shields.io/badge/Methodology-PTES%20Standards-00F2FE?style=flat-square&labelColor=0D1117" alt="PTES" />
-  <img src="https://img.shields.io/badge/Auditing-Burp%20Suite%20%2F%20Wireshark-00F2FE?style=flat-square&labelColor=0D1117" alt="Burp Suite" />
-  <img src="https://img.shields.io/badge/Messaging-Telegram%20Bot%20API-00F2FE?style=flat-square&logo=telegram&logoColor=00F2FE&labelColor=0D1117" alt="Telegram API" />
-  <img src="https://img.shields.io/badge/Testing-Playwright%20E2E-00F2FE?style=flat-square&logo=playwright&logoColor=00F2FE&labelColor=0D1117" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Methodology-PTES%20%26%20CVSS%203.1-00F2FE?style=flat-square&labelColor=0D1117" alt="PTES" />
+  <img src="https://img.shields.io/badge/Recon-Nuclei%20%2F%20FFUF%20%2F%20Katana-00F2FE?style=flat-square&labelColor=0D1117" alt="Recon Arsenal" />
+  <img src="https://img.shields.io/badge/AI%20Security-Prompt%20Injection%20%26%20MCP-00F2FE?style=flat-square&logo=anthropic&logoColor=0B0F19&labelColor=0D1117" alt="AI Security" />
+  <img src="https://img.shields.io/badge/Protocol-MCP%20(Model%20Context%20Protocol)-00F2FE?style=flat-square&labelColor=0D1117" alt="MCP" />
 </p>
 
 ---
