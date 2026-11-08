@@ -1,7 +1,9 @@
 <div align="center">
 
-  <!-- Hero Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,50:002b4d,100:00F2FE&height=200&section=header&text=ARTHUR%20//%20AETHERDZ&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Systems%20%26%20Security%20Engineer%20%C2%B7%20Local-First%20Tooling%20Builder&descSize=16&descAlignY=62&descColor=00F2FE" width="100%" alt="Arthur - Aetherdz Header"/>
+  <!-- Hero Header Banner (Local SVG - 100% reliable, zero external downtime) -->
+  <a href="https://aether-dz.vercel.app">
+    <img src="./assets/header.svg" width="100%" alt="Arthur - Aetherdz Header"/>
+  </a>
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://aether-dz.vercel.app">
@@ -315,7 +317,7 @@ Have a security research inquiry, an open-source collaboration, or a systems eng
   </p>
 </div>
 
-<!-- Footer Waving Banner -->
+<!-- Footer Terminal Banner -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,50:002b4d,100:00F2FE&height=110&section=footer" width="100%" alt="Footer Banner"/>
+  <img src="./assets/footer.svg" width="100%" alt="Footer Banner"/>
 </div>
